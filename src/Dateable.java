@@ -17,7 +17,7 @@ public class Dateable {
                 System.out.println("Invalid input. Please enter a valid age");
             }
         }
-        System.out.println("The maximum age you can date is: " + age/2 + 7);    // Output
+        System.out.println("The minimum age you should date as a " + age + "-year-old is: " + (age/2 + 7));    // Output
 
 
     }
